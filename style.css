@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Kumbh Sans;
+}
+
+.vik {
+    border-radius: 50%;
+    border: white 5px solid;
+    margin-top: 85px;
+}
+
+.viktor {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.l {
+    display: flex;
+    justify-content: center;
+    color: #7E7E80;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.raqamlar {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+
+}
+
+.q {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h4 {
+    color: #333542;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(bg-pattern-top.svg) no-repeat, url(bg-pattern-bottom.svg) no-repeat;
+    background-position: -10vw -60vh, 50vw 50vh;
+    background-size: 60%, 60%;
+    background-color: #19A1AD;
+}
+
+.card {
+    background-image: url(bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 60vh;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 8px;
+    box-shadow: 1px 0px 63px -23px rgba(0, 0, 0, 0.75);
+}
+
+h5 {
+    color: #2C2C37;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+hr {
+    margin-top: 26px;
+    margin-bottom: 25px;
+    border: none;
+    width: 147%;
+    height: 1px;
+    background-color: #E9E9E9;
+}
+
+.y {
+    color: #7E7E80;
+    font-size: 12px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+.z {
+    margin-left: 5px;
+}
+
+@media screen and (max-width:550px) {
+    .main {
+        background-position: -10vh -10vw, 60vh 80vw;
+    }
+    .card{
+        padding: 0 20px;
+    }
+    hr{
+        width: 118%;
+    }
+}
